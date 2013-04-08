@@ -1,0 +1,110 @@
+﻿*{margin:0px;padding:0px;}
+body{background:#0A53BC;}
+ul li{float:left;list-style:none;}
+/**************************************************背景的圆角框***************************************************/
+.divbg{	
+	margin:auto;
+	width:938px;
+	margin-top:35px;
+	position:relative;
+}
+.leftTop{width:11px;height:8px;background:url(../images/divLeftTop.png) no-repeat;float:left;}
+.top{width:916px;height:8px;background:url(../images/divTopBorder.png) repeat-x;float:left;}
+.rightTop{width:11px;height:8px;background:url(../images/divRightTop.png) no-repeat;float:left;}
+.left{width:11px;height:468px;_height:499px;margin-top:0px;_margin-top:-11px;background:url(../images/divLeftBorder.png) repeat-y;float:left;}
+.center{width:916px;height:468px;_height:499px;margin-top:0px;_margin-top:-11px;background:#0D80D9;float:left;}
+.right{width:11px;height:468px;_height:499px;margin-top:0px;_margin-top:-11px;background:url(../images/divRightBorder.png) repeat-y;float:left;}
+.leftBottom{width:11px;height:11px;background:url(../images/divLeftBottom.png) no-repeat;float:left;}
+.bottom{width:916px;height:11px;background:url(../images/divBottomBorder.png) repeat-x;float:left;}
+.rightBottom{width:11px;height:11px;background:url(../images/divRightBottom.png) no-repeat;float:left;}
+/****************************************************抽奖游戏版块*****************************************************/
+.title{position:absolute;top:-17px;left:40px;z-index:100;width:334px;height:59px;background:url(../images/firstTitle.png);}
+.firstLeft{width:476px;height:428px;float:left;margin-left:5px;background:#2190E6;margin-top:37px;}
+.firstLeftTop{width:476px;height:6px;}
+.ltopLeft{float:left;margin:-1px 0px 0px -1px;_margin:0px;width:21px;height:6px;background:url(../images/ltopLeft.jpg) no-repeat;}
+.ltopRight{float:right;margin:-1px -1px 0px 0px;_margin:0px;width:24px;height:6px;background:url(../images/ltopRight.jpg) no-repeat;}
+.firstLeftcenter{width:476px;height:419px;margin-top:-1px;_margin-top:-13px;}
+.lcenterLeft{width:6px;height:419px;float:left;margin-left:-1px;_margin-left:0px;}
+.lclTop{width:6px;height:17px;background:url(../images/lcenterLeftTop.jpg) no-repeat;}
+.lclCenter{width:6px;height:385px;}
+.lclBottom{width:6px;height:17px;background:url(../images/lcenterLeftBottom.jpg) no-repeat;}
+.lcenterRight{width:6px;height:419px;float:right;margin-right:-1px;_margin-right:0px;}
+.lcrTop{width:6px;height:17px;background:url(../images/lcenterRightTop.jpg) no-repeat;}
+.lcrCenter{width:6px;height:385px;}
+.lcrBottom{width:6px;height:17px;background:url(../images/lcenterRightBottom.jpg) no-repeat;}
+.firstLeftBottom{width:476px;height:6px;font-size:0px;margin-top:0px;_margin-top:-2px;}
+.lbottomLeft{float:left;margin:0px 0px -1px -1px;_margin:0px;width:21px;height:6px;background:url(../images/lbottomLeft.jpg) no-repeat;}
+.lbottomRight{float:right;margin:0px -1px -1px 0px;_margin:0px;width:21px;height:6px;background:url(../images/lbottomRight.jpg) no-repeat;}
+.lccBody{width:452px;height:402px;float:left;margin:10px 5px 5px 9px;_margin:10px 4px 4px 5px;}
+#picList li{width:143px;height:72px;margin:3px 3px;_margin:2px 3px;cursor:pointer;overflow:hidden;position:relative;}
+#picList li img{position:absolute;width:143px;z-index:101}
+.firstRight{width:410px;height:440px;float:right;margin:15px 5px 0px 0px;}
+.firstRightTop{width:410px;height:47px;}
+.rTopTitle{width:208px;height:47px;background:url(../images/rTopTitle.png);}
+.firstRightCenter{width:410px;height:370px;font-size:14px;color:#FFF;line-height:25px;}
+.firstRightCenter ul li{display:block;width:410px;}
+.firstRightCenter ul .end{margin-top:20px;text-indent:2em;}
+.firstRightCenter span{color:#FFC600;font-weight:bold;}
+.firstRightBottom{width:410px;height:23px; text-align:center;}
+.firstRightBottom a{font-size:18px;font-weight:bold;color:#FFC600;text-decoration:none;}
+.firstRightBottom a:hover{text-decoration:underline;}
+#picList li .IMG1{position:absolute;width:143px;z-index:100}
+/**************************************************测试你的保险生活态度********************************************/
+/*整体布局*/
+#main{height:650px;_height:650px;}
+#secondLeft{height:650px;_height:650px;}
+#secondRight{height:650px;_height:650px;}
+.mainTop{width:100%;height:60px;}           /*测试你的保险生活态度也有用*/
+.mainTopTitle{width:280px;height:31px;background:url(../images1/secondTitle.png);margin:10px auto 0px auto;}
+.titleBottomBorder{width:668px;height:4px;background:url(../images1/titleBottomBorder.png) no-repeat;margin:5px auto 0px auto;}/*测试你的保险生活态度也有用*/
+.mainBody{width:100%;height:555px;}
+/*左边布局样式*/
+.mainBodyLeft{width:640px;height:555px;float:left;}
+.mbLeftTop{width:100%;height:38px;}
+.mblTopLeft{width:279px;height:38px;display:inline;background:url(../images1/secondLeftborder.png) no-repeat;margin-left:81px;float:left;}
+.mblTopRight{width:280px;height:38px;float:right;}
+.mbltRightTop{width:100%;height:28px;padding-top:5px;}
+.mbltRightTop ul li{float:left;margin-right:8px;display:inline;}
+.mbltRightTop ul li a{color:#FFF;text-decoration:none;font-family:黑体;}
+.mbltRightBottom{width:50px;height:5px;font-size:0px;background:url(../images1/secondLeftBorder1.png) no-repeat;}
+.mbLeftBody{width:100%;height:517px;}
+.mblBodyLeft{width:622px;height:517px;float:left;background:url(../images1/picBorder.png) no-repeat;}
+.mblbLeftBody{width:554px;height:360px;margin:118px 0px 0px 36px;}
+.imgLists{width:267px;height:170px;float:left;cursor:pointer;}
+#age,#insurer{float:right;}
+#attitude,#insurer{margin-top:20px;}
+.mblBodyRight{width:18px;height:185px;float:left;margin-top:18px;background:url(../images1/picBorder1.png) no-repeat;}
+/*右边布局样式*/
+.mainBodyRight{width:250px;height:555px;float:right;}
+.classes{width:100%;height:33px;}
+.buttonUnChecked{width:61px;line-height:33px;text-align:center;float:left;margin-left:2px;background:url(../images1/buttonUnChecked.png) no-repeat;cursor:pointer;color:#FFF;font-size:18px;font-family:黑体;}
+.buttonChecked{width:61px;line-height:33px;text-align:center;float:left;margin-left:2px;background:url(../images1/buttonChecked.png) no-repeat;cursor:pointer;color:#FFF;font-size:18px;font-family:黑体;}
+#sexa{margin-left:0px;}
+#insurera{font-size:14px;font-weight:bold;}
+.mbRightBody{width:100%;height:522px;background:#FFF;overflow:hidden;}
+.buttonUp{width:100%;height:31px;}
+.ButtonUp{width:26px;height:31px;background:url(../images1/buttonUp.png) no-repeat;margin:auto;cursor:pointer;}
+.showBox{width:232px;height:459px;margin-left:8px;overflow:hidden;position:relative;}
+.showBody{width:232px;position:absolute;}
+.buttonDown{width:100%;height:32px;}
+.ButtonDown{width:26px;height:32px;background:url(../images1/buttonDown.png) no-repeat;margin:auto;cursor:pointer;}
+.showPicList{width:230px;height:146px;border:1px solid #0D80D9;display:block;margin:0px;margin-top:7px;padding:0px;cursor:pointer;}
+#showFirst{margin-top:0px;}
+/**************************************************点击草坪送出一朵花********************************************/
+/*整体布局*/
+#thirdMain{height:690px;_height:690px;}
+#thirdLeft{height:690px;_height:690px;}
+#thirdRight{height:690px;_height:690px;}
+.thirdMainTopTitle{width:230px;height:30px;background:url(../images1/thirdMainTopTitle.png);margin:10px auto 0px auto;}
+.thirdmainBody{width:904px;height:609px;background:url(../images1/green.png);margin:auto;}
+#mouse{position:absolute;display:none;z-index:10000}
+
+
+
+
+
+
+
+
+
+
